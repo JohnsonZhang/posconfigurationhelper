@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>  
+<poslist>
+<pos>  
+    <SiteId>1</SiteId>  
+    <TPID>1</TPID>  
+	<EAPID>0</EAPID> 
+	<LanguageCode>en</LanguageCode> 
+	<ClientLocale>en-US</ClientLocale> 
+	<LangId>1033</LangId> 
+	<Currency>USD</Currency> 
+	<MerchantID>162443</MerchantID> 
+	<SupplyLocale>en_US</SupplyLocale>  
+</pos>  
+<pos>  
+    <SiteId>80001</SiteId>  
+    <TPID>80001</TPID>  
+	<EAPID>0</EAPID>
+	<LanguageCode>en</LanguageCode> 
+	<ClientLocale>en-US</ClientLocale> 
+	<LangId>1033</LangId> 
+	<Currency>USD</Currency> 
+	<MerchantID>162472</MerchantID> 
+	<SupplyLocale>en_US</SupplyLocale>  
+</pos>
+</poslist>
+ 
