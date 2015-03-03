@@ -1,4 +1,5 @@
 1.Introduction 
+
  PosConfigurationHelper is a library provide a set of commond function we can use to get the EDPWEB/ LXShop /LX Supply info .  The library load the pos information from the pos.xml which  save all  the LX POS mappings , and return the specify Pos  by passing different parameters.
 
 2.POS Configuration Helper library :
@@ -6,20 +7,32 @@ POSConfigurationHelper module is an independent maven project , it  mainly conta
 
 PosConfiguration Class – the main class where we can use different ways to get a <Site>
 >>> posConfiguration.getPosFromSiteIdLanguageCode(Long sitesID, String languageCode)
+
 >>> posConfiguration.getPosFromTpidEapidLanguageCode(Long tpid, Long eapid, String languageCode)
+
 >>> posConfiguration.getPosFromSiteIdClientLocale(Long sitesID, String clientLocale)
+
 >>> posConfiguration.getPosFromTpidEapidClientLocale(Long tpid, Long eapid, String clientLocale)
+
 >>> posConfiguration.getPosFromMerchantIDSupplyLocale(Long merchantID, String supplylocale)
 
 Pos Class – an instance representing a site (e.g a given line in the above table)
 >>> pos.getMerchantId()
+
 >>> pos.getClientLocale()
+
 >>> pos.getSupplyLocale()
+
 >>> pos.getSiteID()
+
 >>> pos.getTPID()
+
 >>> pos.getEAPID()
+
 >>> pos.getLanguageCode()
+
 >>> pos.getLangID()
+
 >>> pos.getCurrency()
 
 pos.xml - a xml file save all the LX POS mapping , it's under the PosConfigurationHelper  resources folder .
