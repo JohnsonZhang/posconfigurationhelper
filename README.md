@@ -3,6 +3,7 @@
  PosConfigurationHelper is a library provide a set of commond function we can use to get the EDPWEB/ LXShop /LX Supply info .  The library load the pos information from the pos.xml which  save all  the LX POS mappings , and return the specify Pos  by passing different parameters.
 
 2.POS Configuration Helper library :
+
 POSConfigurationHelper module is an independent maven project , it  mainly contain below class/configuration:
 
 PosConfiguration Class – the main class where we can use different ways to get a <Site>
@@ -17,6 +18,7 @@ PosConfiguration Class – the main class where we can use different ways to get
 >>> posConfiguration.getPosFromMerchantIDSupplyLocale(Long merchantID, String supplylocale)
 
 Pos Class – an instance representing a site (e.g a given line in the above table)
+
 >>> pos.getMerchantId()
 
 >>> pos.getClientLocale()
@@ -37,9 +39,12 @@ Pos Class – an instance representing a site (e.g a given line in the above tab
 
 pos.xml - a xml file save all the LX POS mapping , it's under the PosConfigurationHelper  resources folder .
 
-3. How to use the POSConfigurationHelper
+
+3.How to use the POSConfigurationHelper
+
    1) import POSConfigurationHelper jar into project 
-    2) create a PosConfiguration instance and use the command function to get the pos by passing different parameters. 
+   
+   2) create a PosConfiguration instance and use the command function to get the pos by passing different parameters. 
 sample :
 
         PosConfiguration psc = new PosConfiguration();
